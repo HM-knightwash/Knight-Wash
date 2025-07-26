@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Knight Wash — UCF Student Pressure Washing</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; color:#333; }
+    header { background:#003366; color:white; padding:2rem 1rem; text-align:center;}
+    header h1 { margin:0; font-size:2.5rem; }
+    section { padding:2rem 1rem; max-width:800px; margin:0 auto; }
+    .pricing-table { display:flex; flex-wrap:wrap; gap:1rem; margin-top:1rem; }
+    .plan { flex:1; min-width:200px; border:1px solid #ccc; padding:1rem; border-radius:5px; }
+    .plan h3 { margin-top:0; color:#003366; }
+    .contact-form input, .contact-form textarea { width:100%; padding:0.5rem; margin-bottom:1rem; }
+    .contact-form button { background:#003366; color:white; padding:0.75rem; border:none; border-radius:5px; cursor:pointer; }
+    footer { background:#f2f2f2; text-align:center; padding:1rem; margin-top:2rem;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knight Wash</h1>
+    <p>UCF Student-Run Pressure Washing Services</p>
+  </header>
+
+  <section>
+    <h2>Our Services & Pricing</h2>
+    <div class="pricing-table">
+      <div class="plan">
+        <h3>House (includes gutters)</h3>
+        <p><strong>$60</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Driveway Only</h3>
+        <p><strong>$50</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Sidewalk</h3>
+        <p><strong>$25</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Add Sidewalk to Driveway</h3>
+        <p><strong>$10 extra</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Patio</h3>
+        <p><strong>$35</strong></p>
+      </div>
+    </div>
+
+    <h2>About Us</h2>
+    <p>
+      Knight Wash is a group of proud UCF students offering reliable and affordable pressure washing for homes, driveways, patios, and sidewalks. We bring Golden Web‑worthy shine to your property at student-friendly prices.
+    </p>
+  </section>
+
+  <section>
+    <h2>Get a Quote / Book Now</h2>
+    <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+      <label>
+        Name<br />
+        <input type="text" name="name" placeholder="Your full name" required />
+      </label>
+      <label>
+        Email<br />
+        <input type="email" name="email" placeholder="Your email" required />
+      </label>
+      <label>
+        Address or Work Location<br />
+        <input type="text" name="address" placeholder="Where shouldn't we miss?" required />
+      </label>
+      <label>
+        Services Interested In<br />
+        <textarea name="services" placeholder="House, driveway, patio…" required></textarea>
+      </label>
+      <label>
+        Message (optional)<br />
+        <textarea name="message" placeholder="Questions? Preferences?"></textarea>
+      </label>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>📍 Serving Orlando area | 🧼 Student-run | Ready to brighten your castle</p>
+    <p>&copy; Knight Wash – UCF Students</p>
+  </footer>
+</body>
+</html>
